@@ -1,0 +1,43 @@
+div {
+  border-radius: 5px;
+  background-color: #3465ad27;
+  padding: 20px;
+  font-family: cursive;
+}
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+p{
+  font-size: large;
+  font-family: cursive;
+}
+div.head{
+  border-radius: 5px 5px 0px 0px;
+}
+div.password{
+  border-radius: 0px 0px 0px 0px;
+}
+div.beschreibung{
+  border-radius: 0px 0px 0px 0px;
+}
+div.punkte{
+  border-radius: 0px 0px 0px 0px;
+}
+div.button{
+  border-radius: 0px 0px 5px 5px;
+}
+button{
+  font-family: cursive;
+  top: 12.8cm;
+  left: 5cm;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
