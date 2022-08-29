@@ -5,18 +5,6 @@ export interface HighScoreEntry {
   name: string;
   points: number;
 }
-var HighScoreEntry: Array<string | number> = [
-  'Player 1',
-  'Player 2',
-  'Player 3',
-  'Player 4',
-  'Player 5',
-  555,
-  444,
-  333,
-  222,
-  111,
-];
 
 var temp: HighScoreEntry[] = [
   {
