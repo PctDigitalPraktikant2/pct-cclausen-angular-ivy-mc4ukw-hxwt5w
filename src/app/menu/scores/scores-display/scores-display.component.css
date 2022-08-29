@@ -1,40 +1,11 @@
-#container {
-  width: 100%;
-  height: auto;
-}
-
-.row {
+div {
   position: relative;
   display: block;
   width: 100%;
   height: 50px;
-  border-bottom: 1px solid #afafaf;
   font-family: cursive;
   top: 190px;
-  background-color: whitesmoke;
   padding-left: 15px;
-}
-
-.name {
-  position: relative;
-  display: inline-block;
-  width: 75%;
-  line-height: 45px;
-}
-
-.score {
-  position: relative;
-  display: inline-block;
-  width: 25%;
-}
-.row:nth-child(1) {
-  background: linear-gradient(90deg, gold 0%, yellow 52%, rgb(253, 207, 0));
-}
-.row:nth-child(2) {
-  background: silver;
-}
-.row:nth-child(3) {
-  background: #db7719;
 }
 
 p {
@@ -62,5 +33,17 @@ img {
   transform: translate(-50%, -50%);
 }
 table {
-	width: 100%;
+  font-family:cursive;
+  border-collapse: collapse;
+  width: 95%;
+	background-color: whitesmoke;
+	font-size: large;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+	height: 40px;
 }

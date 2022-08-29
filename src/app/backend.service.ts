@@ -9,23 +9,23 @@ export interface HighScoreEntry {
 var temp: HighScoreEntry[] = [
   {
     name: 'Player 1',
-    points: 555,
+    points: 500,
   },
   {
     name: 'Player 2',
-    points: 444,
+    points: 400,
   },
   {
     name: 'Player 3',
-    points: 333,
+    points: 300,
   },
   {
     name: 'Player 4',
-    points: 222,
+    points: 200,
   },
   {
     name: 'Player 5',
-    points: 111,
+    points: 100,
   },
 ];
 
