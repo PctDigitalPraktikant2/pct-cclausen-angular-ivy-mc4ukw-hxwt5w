@@ -18,6 +18,11 @@ export interface LocalQRCodes {
   points: number;
 }
 
+const obj: HighScoreEntry = {
+  name: "player1",
+  points: 500
+}
+
 @Injectable({ providedIn: 'root' })
 export class BackendService {
   // used during development, in production the app will need a real backend
