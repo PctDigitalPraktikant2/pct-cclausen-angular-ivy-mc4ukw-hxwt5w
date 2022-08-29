@@ -28,7 +28,7 @@
 	display: inline-block;
 	width: 25%;
 }
-.row:nth-child(1) {background: gold;}
+.row:nth-child(1) {  background: linear-gradient(90deg, gold 0%, yellow 52%, rgb(253, 207, 0));;}
 .row:nth-child(2) {background: silver;}
 .row:nth-child(3) {background: #db7719;}
 
