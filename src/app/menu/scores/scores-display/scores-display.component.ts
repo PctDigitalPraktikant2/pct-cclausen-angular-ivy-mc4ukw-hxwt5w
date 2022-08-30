@@ -16,5 +16,5 @@ public scores: HighScoreEntry[]=[]
   async ngOnInit() {
     this.scores= await this.backend.getHighscores()
   }
-
+  
 }
