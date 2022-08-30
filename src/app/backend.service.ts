@@ -8,24 +8,44 @@ export interface HighScoreEntry {
 
 var temp: HighScoreEntry[] = [
   {
-    name: 'Player 1',
+    name: 'Habel',
     points: 500,
   },
   {
-    name: 'Player 2',
-    points: 400,
+    name: 'Twizzy',
+    points: 480,
   },
   {
-    name: 'Player 3',
-    points: 300,
+    name: 'HolyQuadrinity',
+    points: 310,
   },
   {
-    name: 'Player 4',
-    points: 200,
+    name: 'DeusXMac',
+    points: 280,
   },
   {
-    name: 'Player 5',
-    points: 100,
+    name: 'Slapdash',
+    points: 230,
+  },
+  {
+    name: 'trashpanda',
+    points: 220,
+  },
+  {
+    name: 'Fiend99',
+    points: 160,
+  },
+  {
+    name: 'Octagun',
+    points: 90,
+  },
+  {
+    name: 'Sinistra09',
+    points: 70,
+  },
+  {
+    name: ' Buzzkilling',
+    points: 10,
   },
 ];
 
